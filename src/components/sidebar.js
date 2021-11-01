@@ -282,7 +282,7 @@ export const SidebarMobile = ()=>{
         <Button onClick={()=>setLoginValues(false, '')} className={classes.authBtnMobile}>Logout</Button> :
         <>
             <Link to={'../login'}><Button className={classes.authBtnMobile} onClick={setMenu} >Login</Button></Link>
-            <Link to={'../login'}><Button className={classes.authBtnMobile} onClick={setMenu} >Register</Button></Link>
+            <Link to={'../signup'}><Button className={classes.authBtnMobile} onClick={setMenu} >Register</Button></Link>
         </>
         }
         </div>}
